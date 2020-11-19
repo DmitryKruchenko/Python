@@ -1,0 +1,16 @@
+User_number = input("Введите целое число:  ")
+print("Целое число", User_number)
+s = str(User_number)
+
+
+i = 9
+
+while(i <= 9 and i >= 0):
+    n = s.find(str(i))
+    if n >=0:
+
+        print('Максимальное число', i)
+        break
+    else:
+
+        i = i - 1

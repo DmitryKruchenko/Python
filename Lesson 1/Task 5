@@ -1,0 +1,24 @@
+Sales = input("Введите размер выручки:  ")
+print("Выручка", Sales)
+Cost = input("Введите величину затрат:  ")
+print("Выручка", Cost)
+Sales = float(Sales)
+Cost = float(Cost)
+Result = Sales - Cost
+
+if (Result >=0):
+    print('Прибыль компании', Result)
+    Profit = Result
+
+else:
+    print('Убыток компании', Result)
+    Loss = Result
+
+if (Result>=0):
+    Profitability = Result / Sales
+    print('Рентабельность', Profitability)
+    Num_personal = input('Введите количество работающих:  ')
+    print('Количество работающих', Num_personal)
+    Num_personal = float(Num_personal)
+    ProfitPerNum_personal = Profit / Num_personal
+    print('Прибыль на одного работника', ProfitPerNum_personal)

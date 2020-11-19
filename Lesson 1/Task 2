@@ -1,0 +1,19 @@
+User_time = int(input("Введите время в секундах:  "))
+print("Время в секундах", User_time)
+if User_time >= 3600:
+    Hour = User_time // 3600
+    Min1 = User_time - (Hour * 3600)
+    Min = Min1 // 60
+    Sec = User_time - Hour * 3600 - Min * 60
+#    print(Hour, Min, Sec)
+if (User_time < 3600 and User_time >= 60):
+    Hour = 0
+    Min = User_time // 60
+    Sec = User_time - Min * 60
+#    print(00, Min, Sec)
+if  User_time < 60:
+    Hour = 0
+    Min = 0
+    Sec = User_time
+#   print(00, 00, User_time)
+print('%s: %s: %s' % ((Hour, Min, Sec)))

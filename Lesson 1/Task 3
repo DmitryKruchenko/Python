@@ -1,0 +1,8 @@
+User_number = input("Введите целое число:  ")
+print("Целое число", User_number)
+x = int(User_number)
+
+y = x * 10
+z = x * 100
+q = z + y + x
+print( q )

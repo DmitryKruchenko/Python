@@ -1,0 +1,7 @@
+User_name = input("Введите свое имя: ")
+print(User_name)
+User_surname = input( "Введите свою фамилию: ")
+print(User_surname)
+User_age = int (input("Введите свой возраст: "))
+print(User_age)
+print(User_name, User_surname, User_age)
